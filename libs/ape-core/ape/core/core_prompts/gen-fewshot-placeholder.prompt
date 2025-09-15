@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 inputs: 
     prompt: prompt to fill with fewshot examples placeholder
 response_format:

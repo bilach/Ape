@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 description: Generate a summary of the dataset with prior observations
 inputs:
     examples: A list of examples from the dataset

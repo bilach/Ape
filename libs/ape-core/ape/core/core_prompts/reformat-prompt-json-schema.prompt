@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 description: Reformat the given prompt template so that a JSON schema is enforced, and a placeholder variable for few shot examples is added.
 inputs:
     prompt: The prompt that needs to be reformatted.

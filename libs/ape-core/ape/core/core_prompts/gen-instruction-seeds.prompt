@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 inputs:
     task_description: A description of the task that the LLM will be asked to perform
     inputs_description: A description of the input variables

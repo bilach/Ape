@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 description: Generate a summary of the observations
 inputs: 
     observations: A list of observations you have made previously

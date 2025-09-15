@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 inputs: 
     prompt1: The first prompt to crossover
     prompt2: The second prompt to crossover

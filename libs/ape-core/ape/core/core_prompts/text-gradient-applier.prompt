@@ -1,5 +1,5 @@
 ---
-model: gpt-4o
+model: gpt-4.1
 inputs: 
     task_description: The description of the task
     base_prompt: The base prompt to start from
