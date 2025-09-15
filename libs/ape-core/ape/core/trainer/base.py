@@ -78,7 +78,7 @@ class BaseTrainer(ABC):
         generate_tasks = [
             self.generate(
                 prompt=prompt,
-                inputs=item["inputs"],
+                inputs={"inputs": item["inputs"], "metadata": item["metadata"]},
             )
             for item in dataset
         ]
