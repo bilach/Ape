@@ -10,6 +10,8 @@ __pycache__
 .vscode/*
 */.DS_Store
 *.egg-info
+.idea
+.idea/*
 
 ipynb_test
 ipynb_test/*
