@@ -122,7 +122,8 @@ class DspyMiproTrainer(BaseTrainer):
             trainset=trainset,
             num_candidates=self.num_candidates,
         )
-
+        for x in range(len(instruction_candidates)):
+            logger.debug(f"PROMPT CANDIDATE {x + 1}: {instruction_candidates[x]}")
         best_score = global_result.score
         best_prompt = prompt.deepcopy()
 
