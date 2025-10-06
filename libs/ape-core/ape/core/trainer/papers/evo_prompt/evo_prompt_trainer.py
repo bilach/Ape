@@ -124,6 +124,7 @@ class EvoPromptTrainer(BaseTrainer):
         # After evolution, select the best prompt
         best_prompt_index = max(self.evaluated_prompts.items(), key=lambda x: x[1])[0]
         best_prompt = self.indices2prompts[best_prompt_index]
+        logger.info(f"Best Prompt: {best_prompt.messages[0]['content']}, Score: {self.evaluated_prompts[best_prompt_index]}, for index: {best_prompt_index}")
         return best_prompt, report
 
     async def init_pop(self, prompt: Prompt, trainset: List[DatasetItem], valset: List[DatasetItem], report: EvoPromptReport):
